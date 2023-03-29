@@ -3,11 +3,8 @@ import React from "react";
 
 export default function About() {
   return (
-    <>
-      <div
-        className="text-4xl mb-10 text-[#5651e5] font-semibold pt-24"
-        id="about"
-      >
+    <section className="mx-10" id="about">
+      <div className="text-4xl mb-10 text-[#5651e5] font-semibold pt-24">
         About
       </div>
       <div className="flex justify-between space-x-10">
@@ -42,6 +39,6 @@ export default function About() {
           />
         </div>
       </div>
-    </>
+    </section>
   );
 }

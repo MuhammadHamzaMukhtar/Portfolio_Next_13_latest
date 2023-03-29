@@ -10,17 +10,17 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <>
+    <div className="mx-10">
       <div className="text-center mt-20 mb-48">
         <p className="my-5 font-light tracking-widest">
-          LET'S BUILD SOMETHING TOGETHER
+          LETS BUILD SOMETHING TOGETHER
         </p>
         <p className="text-6xl font-semibold mb-8">
-          Hi, I'm <span className="text-[#5651e5]">Hamza</span>
+          Hi, Im <span className="text-[#5651e5]">Hamza</span>
         </p>
         <p className="text-6xl font-semibold mb-8">A Front-End Web Developer</p>
         <p className=" font-light tracking-widest">
-          I’m focused on building responsive front-end web applications <br />
+          Im focused on building responsive front-end web applications <br />
           integrating back-end technologies.
         </p>
         <div className="flex justify-center mt-16 space-x-16">
@@ -56,6 +56,6 @@ export default function Home() {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 }

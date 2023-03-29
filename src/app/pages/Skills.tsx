@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <>
+    <div className="mx-10">
       <div
         className="mt-20 text-4xl mb-10 text-[#5651e5] font-semibold pt-24"
         id="skills"
@@ -67,6 +67,6 @@ export default function Skills() {
           <p className="flex justify-end mt-6 text-xl font-semibold">LARAVEL</p>
         </div>
       </div>
-    </>
+    </div>
   );
 }

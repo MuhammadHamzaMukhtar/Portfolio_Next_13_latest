@@ -3,14 +3,14 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <>
+    <div className="mx-10">
       <div
         className="mt-20 text-4xl mb-10 text-[#5651e5] font-semibold pt-24"
         id="projects"
       >
         PROJECTS
       </div>
-      <h1 className="text-3xl mb-8">What I've Built</h1>
+      <h1 className="text-3xl mb-8">What Ive Built</h1>
       <div className="grid grid-cols-2 gap-16">
         <Image
           src={"/property.jpeg"}
@@ -41,6 +41,6 @@ export default function Projects() {
           alt="Property"
         />
       </div>
-    </>
+    </div>
   );
 }
